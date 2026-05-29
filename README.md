@@ -1,5 +1,4 @@
 # Rayka-coords | v1.0.0
 
-[![Uploading pic.png…]()
-](https://github.com/RaykaStudio/Rayka-coords-standalone-/issues/1#issue-4552324958)
+https://github.com/user-attachments/assets/3d5e0b16-2b90-46e4-ac19-705cb60eca76"
 
