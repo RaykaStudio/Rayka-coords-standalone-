@@ -1,3 +1,3 @@
 # Rayka-coords | v1.0.0
 
-![image](https://github.com/RaykaStudio/Rayka-coords-standalone-/issues/1#issue-4552324958)
+<img width="689" height="693" alt="Image" src="https://github.com/user-attachments/assets/6aceac11-145c-45ff-b8a3-63c6b025bfcb" />
