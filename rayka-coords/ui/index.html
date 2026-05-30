@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayka Coords</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="coords-wrapper">
+        <div id="coords-container">
+            <div class="header">
+                <div class="header-title">
+                    <div class="title-rayka">RAYKA</div>
+                    <div class="title-coords">COORDS</div>
+                </div>
+                <i class="fas fa-times close-btn" id="close-menu"></i>
+            </div>
+            <div class="header-glow-line"></div>
+            
+            <div class="content">
+                <div class="coord-kir">
+                    <div class="label">XYZ Coordinates</div>
+                    <div class="value-container">
+                        <span id="xyz-val" class="coord-value">0.0, 0.0, 0.0</span>
+                        <button class="copy-btn" onclick="copyToClipboard('xyz-val')"><i class="far fa-copy"></i></button>
+                    </div>
+                </div>
+
+                <div class="coord-kir">
+                    <div class="label">Vector3</div>
+                    <div class="value-container">
+                        <span id="vector3-val" class="coord-value">vector3(0.0, 0.0, 0.0)</span>
+                        <button class="copy-btn" onclick="copyToClipboard('vector3-val')"><i class="far fa-copy"></i></button>
+                    </div>
+                </div>
+
+                <div class="coord-kir">
+                    <div class="label">Vector4</div>
+                    <div class="value-container">
+                        <span id="vector4-val" class="coord-value">vector4(0.0, 0.0, 0.0, 0.0)</span>
+                        <button class="copy-btn" onclick="copyToClipboard('vector4-val')"><i class="far fa-copy"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
